@@ -1,2 +1,2 @@
-769DDBDD@#|22 Savage|Atlanta|Georgia|USA|22-10-1992|21 Savage was born in London, and moved to Atlanta, Georgia with his mother at age seven.|Singer,Rapper|rap,hip-hop|2020, Grammy Award for Best Rap Song
-977FALDS*^|Drake|Toronto|Ontario|USA|24-10-1986|An influential figure in contemporary popular music, Drake has been credited for popularizing singing and R&B sensibilities in hip hop.|Producer,Composer,Rapper|blues,hip-hop,rap|2013, Grammy Award for Best Rap Album
+769DDBDD@#|21 Savage|Atlanta|Georgia|USA|22-10-1992|21 Savage was born in London, and moved to Atlanta, Georgia with his mother at age seven.|Singer,Rapper|rap,hip-hop|2020, Grammy Award for Best Rap Song
+977FALDS*^|Drake|Toronto|Ontario|Canada|24-10-1986|An influential figure in contemporary popular music, Drake has been credited for popularizing singing and R&B sensibilities in hip hop.|Producer,Composer,Rapper|blues,hip-hop,rap|2013, Grammy Award for Best Rap Album;2019, Grammy Award for Best Rap Song

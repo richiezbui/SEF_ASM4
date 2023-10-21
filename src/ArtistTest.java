@@ -177,19 +177,35 @@ class ArtistTest {
 
     @Test
     void testUpdateArtist_testCase5() {
-
-        ArrayList<String> occupationsData1 = new ArrayList<>(List.of("Singer", "Rapper", "Composer"));
+        //Test Case 5_Test Data 1
+        ArrayList<String> occupationsData1 = new ArrayList<>(List.of("Rapper", "Singer", "Composer"));
         ArrayList<String> genresData1 = new ArrayList<>(List.of("rap", "hip-hop"));
         ArrayList<String> awardsData1 = new ArrayList<>(List.of("2020, Grammy Award for Best Rap Song"));
         Artist artistCase1Data1 = new Artist("769DDBDD@#", "22 Savage", "Atlanta|Georgia|USA", "22-10-1992", "21 Savage was born in London, and moved to Atlanta, Georgia with his mother at age seven.", occupationsData1, genresData1, awardsData1);
-        assertTrue(artistCase1Data1.updateArtist());
+        assertFalse(artistCase1Data1.updateArtist());
 
+        //Test Case 5_Test Data 2
+        ArrayList<String> occupationsData2 = new ArrayList<>(List.of("Manager", "Producer", "Composer", "Rapper"));
+        ArrayList<String> genresData2 = new ArrayList<>(List.of("blues", "hip-hop", "rap"));
+        ArrayList<String> awardsData2 = new ArrayList<>(List.of("2013, Grammy Award for Best Rap Album"));
+        Artist artistCase1Data2 = new Artist("977FALDS*^", "Drake", "Toronto|Ontario|USA", "24-10-1986", "An influential figure in contemporary popular music, Drake has been credited for popularizing singing and R&B sensibilities in hip hop.", occupationsData2, genresData2, awardsData2);
+        assertFalse(artistCase1Data2.updateArtist());
+    }
+
+    @Test
+    void testUpdateArtist_testCase6() {
+        //Test Case 6_Test Data 1
+        ArrayList<String> occupationsData1 = new ArrayList<>(List.of("Rapper", "Singer"));
+        ArrayList<String> genresData1 = new ArrayList<>(List.of("rap", "hip-hop"));
+        ArrayList<String> awardsData1 = new ArrayList<>(List.of("2020, Grammy Award for Best Rap Song"));
+        Artist artistCase1Data1 = new Artist("769DDBDD@#", "22 Savage", "Atlanta|Georgia|USA", "22-10-1992", "21 Savage was born in London, and moved to Atlanta, Georgia with his mother at age seven.", occupationsData1, genresData1, awardsData1);
+        assertFalse(artistCase1Data1.updateArtist());
+
+        //Test Case 6_Test Data 1
         ArrayList<String> occupationsData2 = new ArrayList<>(List.of("Producer", "Composer", "Rapper"));
         ArrayList<String> genresData2 = new ArrayList<>(List.of("blues", "hip-hop", "rap"));
         ArrayList<String> awardsData2 = new ArrayList<>(List.of("2013, Grammy Award for Best Rap Album"));
         Artist artistCase1Data2 = new Artist("977FALDS*^", "Drake", "Toronto|Ontario|USA", "24-10-1986", "An influential figure in contemporary popular music, Drake has been credited for popularizing singing and R&B sensibilities in hip hop.", occupationsData2, genresData2, awardsData2);
-        assertTrue(artistCase1Data2.updateArtist());
+        assertFalse(artistCase1Data2.updateArtist());
     }
-
-
 }
